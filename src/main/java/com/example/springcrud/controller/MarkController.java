@@ -4,8 +4,7 @@ import com.example.springcrud.domain.Mark;
 import com.example.springcrud.domain.Student;
 import com.example.springcrud.repository.MarkRepository;
 import com.example.springcrud.repository.StudentRepository;
-import com.example.springcrud.service.MarkService;
-import com.example.springcrud.service.StudentService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

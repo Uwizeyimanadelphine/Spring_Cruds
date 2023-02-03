@@ -20,8 +20,11 @@ public class Student {
     @Column(name = "reg_no")
     private Long reg_no;
     private String name;
+    @Column(name = "password")
+    private String password;
 
-
+    @Column(name = "username")
+    private String username;
     public Student() {
 
     }
@@ -49,6 +52,19 @@ public class Student {
         this.name = name;
     }
 
+    public String getPassword() {
+        return password;
+    }
 
+    public String getUsername() {
+        return username;
+    }
 
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
